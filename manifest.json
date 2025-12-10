@@ -1,0 +1,20 @@
+{
+  "name": "LendKeeper",
+  "short_name": "LendKeeper",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "https://placehold.co/192x192/10b981/ffffff?text=LK",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://placehold.co/512x512/10b981/ffffff?text=LK",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
