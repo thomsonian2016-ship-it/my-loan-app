@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Plus, Wallet, TrendingUp, Users, Search, Trash2, ExternalLink, Calculator, DollarSign, Clock, CheckCircle } from 'lucide-react';
+import { Plus, Wallet, TrendingUp, Users, Search, Trash2, Calculator, DollarSign, Clock, CheckCircle } from 'lucide-react';
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 import { Loan } from './types';
 import { calculateLoanDetails, formatCurrency, formatDate } from './utils';
@@ -265,7 +265,7 @@ const App: React.FC = () => {
                         ))}
                       </Pie>
                       <Tooltip 
-                        formatter={(value: number) => formatCurrency(value)}
+                        formatter={(value: any) => formatCurrency(value as number)}
                         contentStyle={{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
                       />
                       <Legend verticalAlign="bottom" height={36}/>
